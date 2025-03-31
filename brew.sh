@@ -71,7 +71,9 @@ if ! brew install \
     lua \
     php \
     python \
-    neofetch; then
+    neofetch \
+    build-essential \
+    gimp; then
     echo "❌ Failed to install essential tools!" >&2
     exit 1
 fi
